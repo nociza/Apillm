@@ -1,7 +1,7 @@
 {
   "name": "apillm",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple Express.js server template for LLM interactions in Typescript",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
