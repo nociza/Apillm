@@ -11,7 +11,7 @@ import chat from "./routes/chat.js";
 const app = express();
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("Hello from Bob!");
+  res.send("Hello from Apillm!");
 });
 
 // Use Routes
