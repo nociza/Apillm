@@ -4,13 +4,14 @@
     "declaration": true,
     "esModuleInterop": true,
     "lib": [
-      "es2021"
+      "es2021", "dom"
     ],
     "module": "esnext",
     "moduleResolution": "node",
     "outDir": "dist",
     "strict": true,
-    "target": "es2021"
+    "target": "es2021",
+    "skipLibCheck": true
   },
   "paths": {
       "@src/*": ["src/*"],
@@ -26,5 +27,5 @@
   "exclude": [
     "node_modules",
     "README.md"
-  ]
+  ],
 }
