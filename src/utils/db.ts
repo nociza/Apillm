@@ -18,6 +18,10 @@ export const connectDB = async () => {
     .catch((err: any) => console.log(err));
 };
 
+export const pingDB = async () => {
+  await mongoose.connection.db.admin().ping();
+};
+
 process.on("SIGTERM", function () {
   console.log("SIGTERM received, closing MongoDB connection");
   //mongoose.disconnect();
